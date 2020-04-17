@@ -40,7 +40,7 @@ class HomePage extends React.Component {
    render() {
        const { locations } = this.props;
        return(
-           <div className="col-md-6 col-md-offset-3">
+           <div className="col-md-6 col-md-offset-3 col-sm-3">
                <h1>Please select a location</h1>
                {locations.loading && <em>Loading locations....</em>}
                {locations.error && <span className="text-danger">ERROR: {locations.error}</span>}
