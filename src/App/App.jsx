@@ -30,7 +30,7 @@ class App extends React.Component {
         const { alert } = this.props;
         return (
                 <Router history={history}>
-                    <div>
+                    <div className="col-sm-3">
                     {user &&
                         <nav className="navbar navbar-expand navbar-dark bg-dark">
                             <div className="navbar-nav">
