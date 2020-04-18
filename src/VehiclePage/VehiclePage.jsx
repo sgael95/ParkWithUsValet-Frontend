@@ -81,18 +81,21 @@ class VehiclePage extends React.Component {
                     </div>
                     <div className='form-group'>
                         <label htmlFor="year">Year of vehicle     </label>
-                        <input type="text" className="from-control" name="year" defaultValue={vehicle.year} onChange={this.handleChange} />
+                        <input type="text" className="from-control"
+                            style={{float: "right"}} name="year" defaultValue={vehicle.year} onChange={this.handleChange} />
                     </div>
                     <div className={'form-group' + (submittedVehicle && !vehicle.color ? ' has-error' : '')}>
                         <label htmlFor="color">Color of vehicle   </label>
-                        <input type="text" className="from-contorl" name="color" value={vehicle.color} onChange={this.handleChange} />
+                        <input type="text" className="from-contorl"
+                            style={{float: "right"}} name="color" value={vehicle.color} onChange={this.handleChange} />
                         {submittedVehicle && !vehicle.color &&
                             <div className="help-block">Vehicle color is required</div>
                         }
                     </div>
                     <div className={'form-group' + (submittedVehicle && !vehicle.carID ? ' has-error' : '')}>
                         <label htmlFor="carID">Vehicle ID</label>
-                        <input type="text" className="from-contorl" name="carID" value={vehicle.carID} onChange={this.handleChange} />
+                        <input type="text" className="from-contorl" 
+                            style={{float: "right"}}name="carID" value={vehicle.carID} onChange={this.handleChange} />
                         {submittedVehicle && !vehicle.carID &&
                             <div className="help-block">Vehicle carID is required</div>
                         }
