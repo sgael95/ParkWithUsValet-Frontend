@@ -80,11 +80,11 @@ class VehiclePage extends React.Component {
                         <input type="text" className="form-control" name="model" defaultValue={vehicle.model} onChange={this.handleChange} />
                     </div>
                     <div className='form-group'>
-                        <label htmlFor="year">Year of vehicle     </label>
+                        <label htmlFor="year">Year</label>
                         <input type="text" className="from-control float-right" name="year" defaultValue={vehicle.year} onChange={this.handleChange} />
                     </div>
                     <div className={'form-group' + (submittedVehicle && !vehicle.color ? ' has-error' : '')}>
-                        <label htmlFor="color">Color of vehicle   </label>
+                        <label htmlFor="color">Color</label>
                         <input type="text" className="from-contorl float-right" name="color" value={vehicle.color} onChange={this.handleChange} />
                         {submittedVehicle && !vehicle.color &&
                             <div className="help-block">Vehicle color is required</div>
