@@ -119,7 +119,7 @@ class AddVehiclePage extends React.Component {
                             <div className="help-block">Car id number is required.</div>
                         }
                     </div>
-                    <div className="form-group" style={{marginTop: "1em"}} >
+                    <div className="form-group mt-3">
                         <button className="btn btn-dark" onClick={this.handleCarSubmit}>Set Location</button>
                         <button className="btn btn-secondary" onClick={this.handleInfoSubmit}>Car Info</button>
                     </div>
