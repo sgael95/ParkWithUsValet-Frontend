@@ -91,7 +91,7 @@ class VehiclePage extends React.Component {
                         }
                     </div>
                     <div className={'form-group' + (submittedVehicle && !vehicle.carID ? ' has-error' : '')}>
-                        <label htmlFor="carID">Vehicle ID</label>
+                        <label htmlFor="carID">ID #</label>
                         <input type="text" className="from-contorl float-right" name="carID" value={vehicle.carID} onChange={this.handleChange} />
                         {submittedVehicle && !vehicle.carID &&
                             <div className="help-block">Vehicle carID is required</div>
