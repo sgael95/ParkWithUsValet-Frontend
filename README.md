@@ -5,15 +5,11 @@
 ## The backend repository for this application can be found at:
 [back-end-repo](https://github.com/sgael95/ParkWithUsValet-Backend)
 
----
-
 ## Admin user
 
 Username: `admin`
 
 Password: `@dm1nn1md@`
-
----
 
 ## Description
 
